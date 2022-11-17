@@ -1,0 +1,19 @@
+create database agenda;
+
+use agenda;
+
+
+
+create table projeto (
+
+id int NOT NULL auto_increment primary key,
+nome varchar (20),
+sobrenome varchar (20),
+email varchar (30),
+optionssenioridade varchar (15),
+experiencia varchar (200)
+
+);
+
+
+select * from projeto;
